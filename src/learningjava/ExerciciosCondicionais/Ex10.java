@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex10 {
     public static void main(String[] args) {
         Scanner user = new Scanner(System.in);
-        System.out.println("Digite um numero entre 1 e 7: ");
+        System.out.print("Digite um numero entre 1 e 7: ");
         int num = user.nextInt();
         String[] week = new String[7];
         week[0] = "Segunda";
@@ -26,7 +26,14 @@ public class Ex10 {
             System.out.println(week[3]);
         }else if(num == 5) {
             System.out.println(week[4]);
-        }
+        }else if(num == 6) {
+            System.out.println(week[5]);
+        }else if(num == 7) {
+            System.out.println(week[6]);
+        }else {
+            System.out.println("Número informado não corresponde a nenhum dia da semana!");
+         }
+        
     }
 }
 /*
