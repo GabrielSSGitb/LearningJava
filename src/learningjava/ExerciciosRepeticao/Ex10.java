@@ -7,7 +7,7 @@ public class Ex10 {
         
         System.out.println("Pense em um número de 1 a 8 e eu vou tentar adivinhar com 3 perguntas!");
 
-        // Primeira pergunta: número está entre 5 e 8?
+        
         System.out.print("O número está entre 5 e 8? (s/n): ");
         String resp1 = input.nextLine();
         if (resp1.equalsIgnoreCase("s")) {
@@ -15,7 +15,7 @@ public class Ex10 {
             System.out.println(numero);
         }
 
-        // Segunda pergunta: o número está em {3, 4, 7, 8}?
+
         System.out.print("O número está em {3, 4, 7, 8}? (s/n): ");
         String resp2 = input.nextLine();
         if (resp2.equalsIgnoreCase("s")) {
@@ -23,7 +23,7 @@ public class Ex10 {
             System.out.println(numero);
         }
 
-        // Terceira pergunta: o número está em {2, 4, 6, 8}?
+
         System.out.print("O número está em {2, 4, 6, 8}? (s/n): ");
         String resp3 = input.nextLine();
         if (resp3.equalsIgnoreCase("s")) {
@@ -31,7 +31,7 @@ public class Ex10 {
             System.out.println(numero);
         }
 
-        // Como a contagem começou em 0, precisamos ajustar:
+     
         numero += 1;
 
         System.out.println("\nSeu número é: " + numero + " 😎");
